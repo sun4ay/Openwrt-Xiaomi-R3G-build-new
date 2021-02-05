@@ -14,7 +14,7 @@ on:
   repository_dispatch:
   workflow_dispatch:
     inputs:
-      ssh:
+      ssh:true
         description: 'SSH connection to Actions'
         required: false
         default: 'false'
